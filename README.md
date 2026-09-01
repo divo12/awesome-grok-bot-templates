@@ -1,6 +1,6 @@
 # Awesome Grok Bot Templates
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-14-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-18-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
 
 A curated list of public Grok Bot templates. Every listing points directly to an official `https://x.ai/bot/...` share page.
 
@@ -18,29 +18,32 @@ Sharing copies the public Bot configuration, not the creator's computer, logins,
 
 ## Contents
 
-- [Assistants](#assistants) (2)
-- [Engineering](#engineering) (2)
-- [Research](#research) (2)
+- [Assistants](#assistants) (3)
+- [Engineering](#engineering) (3)
+- [Research](#research) (3)
 - [Money](#money) (2)
-- [Sales](#sales) (2)
+- [Sales](#sales) (3)
 - [Creative](#creative) (2)
 - [Life](#life) (2)
 - [Contributing](#contributing)
 
 ## Assistants
 
+- [CEO](https://x.ai/bot/UUcFa8QmAvI3ZyWsEMOt8) — Sets company direction, delegates to functional leaders, and reports progress across the board.
 - [Dewey](https://x.ai/bot/rfAHsaFrz6xHBMtUpxDi5) — Watches Gmail and flags messages that look time-sensitive or need a reply. [@Vixlio](https://x.com/Vixlio)
 - [Grok Bot Coach](https://x.ai/bot/BrjELcmSwatjRc8DYjtrT) — Designs, audits, and tunes Grok Bots so they stay useful and focused. [@GuleidAmina](https://x.com/GuleidAmina)
 
 ## Engineering
 
 - [Bouncer](https://x.ai/bot/cGcG0msqfz7o7J3QMLhbE) — Reviews a public Grok Bot share before you add it and returns a risk verdict. [@bradshannon](https://x.com/bradshannon)
+- [CTO](https://x.ai/bot/N_ziMli8oxzdFJgTKV3DV) — Turns product direction into reliable software work across repositories and specialist engineering agents.
 - [PR Reviewer](https://x.ai/bot/rt629UEZFtE4Wz0A_0c37) — Reviews pull requests for risk, missing tests, and thin context before nits. [@mustafaergisi](https://x.com/mustafaergisi)
 
 ## Research
 
 - [Product Idea Stress Test](https://x.ai/bot/JeFTvcDX-7QT2evKGIb52) — Tests a product idea against evidence and identifies its most fragile assumption. [@hnshah](https://x.com/hnshah)
 - [Research Bot](https://x.ai/bot/Nn0ykGa3vJ6YS7ib7F6yH) — Produces cited research and flags claims that remain unverified or biased. [@ArthurMacwaters](https://x.com/ArthurMacwaters)
+- [Researcher](https://x.ai/bot/iri8Z5mxwAWTHJgZUr6nb) — Turns large research topics into decision-ready evidence while filtering stale, duplicated, and unsupported claims.
 
 ## Money
 
@@ -49,6 +52,7 @@ Sharing copies the public Bot configuration, not the creator's computer, logins,
 
 ## Sales
 
+- [Marketing Head](https://x.ai/bot/GUz8QMB4I9RQzIDiIwSOB) — Owns channel strategy, marketing experiments, and evidence-based growth across X, LinkedIn, and other channels.
 - [Pitch Deck Coach](https://x.ai/bot/mqVPHm0oB3WPsnxbU1qB9) — Reviews a pitch deck for what an investor will understand, question, and remember. [@hnshah](https://x.com/hnshah)
 - [Post Call Assistant](https://x.ai/bot/xF12c5y4LVe7nf7IFguWI) — Drafts follow-ups and action items after meetings without sending them. [@itspriyaptl](https://x.com/itspriyaptl)
 

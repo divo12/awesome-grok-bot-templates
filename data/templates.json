@@ -2,6 +2,13 @@
   "updated": "2026-09-01",
   "templates": [
     {
+      "name": "CEO",
+      "description": "Sets company direction, delegates to functional leaders, and reports progress across the board.",
+      "category": "Assistants",
+      "author": null,
+      "share_url": "https://x.ai/bot/UUcFa8QmAvI3ZyWsEMOt8"
+    },
+    {
       "name": "Dewey",
       "description": "Watches Gmail and flags messages that look time-sensitive or need a reply.",
       "category": "Assistants",
@@ -23,6 +30,13 @@
       "share_url": "https://x.ai/bot/cGcG0msqfz7o7J3QMLhbE"
     },
     {
+      "name": "CTO",
+      "description": "Turns product direction into reliable software work across repositories and specialist engineering agents.",
+      "category": "Engineering",
+      "author": null,
+      "share_url": "https://x.ai/bot/N_ziMli8oxzdFJgTKV3DV"
+    },
+    {
       "name": "PR Reviewer",
       "description": "Reviews pull requests for risk, missing tests, and thin context before nits.",
       "category": "Engineering",
@@ -35,6 +49,13 @@
       "category": "Research",
       "author": "hnshah",
       "share_url": "https://x.ai/bot/JeFTvcDX-7QT2evKGIb52"
+    },
+    {
+      "name": "Researcher",
+      "description": "Turns large research topics into decision-ready evidence while filtering stale, duplicated, and unsupported claims.",
+      "category": "Research",
+      "author": null,
+      "share_url": "https://x.ai/bot/iri8Z5mxwAWTHJgZUr6nb"
     },
     {
       "name": "Research Bot",
@@ -56,6 +77,13 @@
       "category": "Money",
       "author": "jxckvibe",
       "share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg"
+    },
+    {
+      "name": "Marketing Head",
+      "description": "Owns channel strategy, marketing experiments, and evidence-based growth across X, LinkedIn, and other channels.",
+      "category": "Sales",
+      "author": null,
+      "share_url": "https://x.ai/bot/GUz8QMB4I9RQzIDiIwSOB"
     },
     {
       "name": "Pitch Deck Coach",
