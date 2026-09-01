@@ -1,0 +1,103 @@
+{
+  "updated": "2026-09-01",
+  "templates": [
+    {
+      "name": "Dewey",
+      "description": "Watches Gmail and flags messages that look time-sensitive or need a reply.",
+      "category": "Assistants",
+      "author": "Vixlio",
+      "share_url": "https://x.ai/bot/rfAHsaFrz6xHBMtUpxDi5"
+    },
+    {
+      "name": "Grok Bot Coach",
+      "description": "Designs, audits, and tunes Grok Bots so they stay useful and focused.",
+      "category": "Assistants",
+      "author": "GuleidAmina",
+      "share_url": "https://x.ai/bot/BrjELcmSwatjRc8DYjtrT"
+    },
+    {
+      "name": "Bouncer",
+      "description": "Reviews a public Grok Bot share before you add it and returns a risk verdict.",
+      "category": "Engineering",
+      "author": "bradshannon",
+      "share_url": "https://x.ai/bot/cGcG0msqfz7o7J3QMLhbE"
+    },
+    {
+      "name": "PR Reviewer",
+      "description": "Reviews pull requests for risk, missing tests, and thin context before nits.",
+      "category": "Engineering",
+      "author": "mustafaergisi",
+      "share_url": "https://x.ai/bot/rt629UEZFtE4Wz0A_0c37"
+    },
+    {
+      "name": "Product Idea Stress Test",
+      "description": "Tests a product idea against evidence and identifies its most fragile assumption.",
+      "category": "Research",
+      "author": "hnshah",
+      "share_url": "https://x.ai/bot/JeFTvcDX-7QT2evKGIb52"
+    },
+    {
+      "name": "Research Bot",
+      "description": "Produces cited research and flags claims that remain unverified or biased.",
+      "category": "Research",
+      "author": "ArthurMacwaters",
+      "share_url": "https://x.ai/bot/Nn0ykGa3vJ6YS7ib7F6yH"
+    },
+    {
+      "name": "Invoice Hunter",
+      "description": "Finds invoice PDFs in Gmail and prepares a monthly CSV for approval.",
+      "category": "Money",
+      "author": "scheemunai",
+      "share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    },
+    {
+      "name": "Watchdog",
+      "description": "Scans email for receipts, renewals, and trials and reports upcoming charges.",
+      "category": "Money",
+      "author": "jxckvibe",
+      "share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg"
+    },
+    {
+      "name": "Pitch Deck Coach",
+      "description": "Reviews a pitch deck for what an investor will understand, question, and remember.",
+      "category": "Sales",
+      "author": "hnshah",
+      "share_url": "https://x.ai/bot/mqVPHm0oB3WPsnxbU1qB9"
+    },
+    {
+      "name": "Post Call Assistant",
+      "description": "Drafts follow-ups and action items after meetings without sending them.",
+      "category": "Sales",
+      "author": "itspriyaptl",
+      "share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI"
+    },
+    {
+      "name": "figma bro",
+      "description": "Designs in Figma using real components, precise layouts, and considered motion.",
+      "category": "Creative",
+      "author": "johnbai",
+      "share_url": "https://x.ai/bot/VHMdjIGjGpgDSJR7dW6Gz"
+    },
+    {
+      "name": "Podcast Summary Bot",
+      "description": "Turns podcast links into five reusable insights and deeper notes.",
+      "category": "Creative",
+      "author": "theadvisorbtc",
+      "share_url": "https://x.ai/bot/CsyAhw5YQaVLeMSnMYwgA"
+    },
+    {
+      "name": "Flora",
+      "description": "Keeps a private houseplant log and schedules seasonal care reminders.",
+      "category": "Life",
+      "author": "RichSilver",
+      "share_url": "https://x.ai/bot/HC7kphHSxDzb639YlmI6O"
+    },
+    {
+      "name": "Grocery Cart Planner",
+      "description": "Plans an Instacart grocery cart when asked and leaves checkout to you.",
+      "category": "Life",
+      "author": "mvanhorn",
+      "share_url": "https://x.ai/bot/Y7LbP6p5EBFjfdTp69cKr"
+    }
+  ]
+}

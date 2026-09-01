@@ -1,0 +1,10 @@
+{
+  "name": "awesome-grok-bot-templates",
+  "private": true,
+  "description": "Curated EN / 中文 / 日本語 directory of Grok Bot templates, starter packs, and playbooks.",
+  "license": "CC0-1.0",
+  "scripts": {
+    "readme": "python3 scripts/generate_readme.py"
+  }
+}
+
