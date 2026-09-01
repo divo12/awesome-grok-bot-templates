@@ -1,6 +1,6 @@
 # Awesome Grok Bot Templates
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-18-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-19-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
 
 A curated list of public Grok Bot templates. Every listing points directly to an official `https://x.ai/bot/...` share page.
 
@@ -19,7 +19,7 @@ Sharing copies the public Bot configuration, not the creator's computer, logins,
 ## Contents
 
 - [Assistants](#assistants) (3)
-- [Engineering](#engineering) (3)
+- [Engineering](#engineering) (4)
 - [Research](#research) (3)
 - [Money](#money) (2)
 - [Sales](#sales) (3)
@@ -37,6 +37,7 @@ Sharing copies the public Bot configuration, not the creator's computer, logins,
 
 - [Bouncer](https://x.ai/bot/cGcG0msqfz7o7J3QMLhbE) — Reviews a public Grok Bot share before you add it and returns a risk verdict. [@bradshannon](https://x.com/bradshannon)
 - [CTO](https://x.ai/bot/N_ziMli8oxzdFJgTKV3DV) — Turns product direction into reliable software work across repositories and specialist engineering agents.
+- [loops](https://x.ai/bot/Ub3T7usX-c6yRQibQq83P) — Generalized engineering outer loop that sits above coding agents, writes testable goal-style prompts, and runs gather, prompt, launch, review, merge.
 - [PR Reviewer](https://x.ai/bot/rt629UEZFtE4Wz0A_0c37) — Reviews pull requests for risk, missing tests, and thin context before nits. [@mustafaergisi](https://x.com/mustafaergisi)
 
 ## Research

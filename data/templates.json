@@ -44,6 +44,13 @@
       "share_url": "https://x.ai/bot/rt629UEZFtE4Wz0A_0c37"
     },
     {
+      "name": "loops",
+      "description": "Generalized engineering outer loop that sits above coding agents, writes testable goal-style prompts, and runs gather, prompt, launch, review, merge.",
+      "category": "Engineering",
+      "author": null,
+      "share_url": "https://x.ai/bot/Ub3T7usX-c6yRQibQq83P"
+    },
+    {
       "name": "Product Idea Stress Test",
       "description": "Tests a product idea against evidence and identifies its most fragile assumption.",
       "category": "Research",
