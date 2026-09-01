@@ -1,27 +1,40 @@
 # Contributing
 
-This list should stay a curated directory of reusable Grok Bot templates, starter packs, and playbooks.
+Add one public Grok Bot template per pull request when practical.
 
-## Acceptance
+## Requirements
 
-An entry must:
+- Use a live official `https://x.ai/bot/<id>` share link.
+- Copy the name shown on the share page.
+- Write one factual sentence describing the job.
+- Add the public creator X handle only when you can verify it; otherwise use `null`.
+- Do not submit prompt dumps, private links, secrets, customer data, or affiliate redirects.
 
-1. Be copy-pasteable as a template, profile pack, roster, or operating playbook.
-2. Have a reachable URL you opened yourself.
-3. Use the form `- [Name](URL) - one sentence.` ending with a period.
-4. Land in the closest section.
-5. Add the same blurb to `data/catalog.json` in `en`, `zh`, and `ja`, then run `python3 scripts/generate_readme.py`.
+## Add a template
 
-## Do not send
+1. Open the share link and review the public configuration.
+2. Add an object to `data/templates.json`:
 
-- Dead links or affiliate funnels
-- Wholesale reprints of third-party full text
-- Duplicate URLs
-- Claims about pricing, quotas, or access that you cannot point at a primary source
+   ```json
+   {
+     "name": "Example Bot",
+     "description": "One sentence describing its job.",
+     "category": "Engineering",
+     "author": null,
+     "share_url": "https://x.ai/bot/example-id"
+   }
+   ```
 
-## Flow
+3. Run:
 
-1. Fork, branch, edit `data/catalog.json`.
-2. Regenerate the README files.
-3. Open a PR with the checklist in `.github/PULL_REQUEST_TEMPLATE.md`.
+   ```bash
+   npm test
+   npm run generate
+   npm run check
+   ```
 
+## Categories
+
+Assistants - Engineering - Research - Money - Sales - Creative - Life
+
+Templates are community-created and untrusted. A listing means the link and description were reviewed; it is not a security endorsement.
