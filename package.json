@@ -1,10 +1,13 @@
 {
   "name": "awesome-grok-bot-templates",
+  "version": "0.1.0",
   "private": true,
-  "description": "Curated EN / 中文 / 日本語 directory of Grok Bot templates, starter packs, and playbooks.",
+  "description": "A curated list of public Grok Bot templates with official x.ai share links.",
   "license": "CC0-1.0",
+  "type": "module",
   "scripts": {
-    "readme": "python3 scripts/generate_readme.py"
+    "generate": "node scripts/catalog.mjs",
+    "check": "node scripts/catalog.mjs --check",
+    "test": "node --test"
   }
 }
-
