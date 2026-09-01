@@ -43,7 +43,7 @@ Sharing copies the public Bot configuration, not the creator's computer, logins,
 
 - [Product Idea Stress Test](https://x.ai/bot/JeFTvcDX-7QT2evKGIb52) — Tests a product idea against evidence and identifies its most fragile assumption. [@hnshah](https://x.com/hnshah)
 - [Research Bot](https://x.ai/bot/Nn0ykGa3vJ6YS7ib7F6yH) — Produces cited research and flags claims that remain unverified or biased. [@ArthurMacwaters](https://x.com/ArthurMacwaters)
-- [Researcher](https://x.ai/bot/iri8Z5mxwAWTHJgZUr6nb) — Turns large research topics into decision-ready evidence while filtering stale, duplicated, and unsupported claims.
+- [Researcher](https://x.ai/bot/iri8Z5mxwAWTHJgZUr6nb) — A research lead for a small personal bot org that spawns topic heads for big ongoing questions, kills junk, and returns a position with evidence and holes—never a dump of links.
 
 ## Money
 

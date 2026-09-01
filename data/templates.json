@@ -52,7 +52,7 @@
     },
     {
       "name": "Researcher",
-      "description": "Turns large research topics into decision-ready evidence while filtering stale, duplicated, and unsupported claims.",
+      "description": "A research lead for a small personal bot org that spawns topic heads for big ongoing questions, kills junk, and returns a position with evidence and holes—never a dump of links.",
       "category": "Research",
       "author": null,
       "share_url": "https://x.ai/bot/iri8Z5mxwAWTHJgZUr6nb"
