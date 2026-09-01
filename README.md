@@ -2,28 +2,30 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-19-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
 
-A curated list of public Grok Bot templates. Every listing points directly to an official `https://x.ai/bot/...` share page.
+A curated list of public **Grok Bot templates**. Every listing is a live [`https://x.ai/bot/...`](https://x.ai/bot) share page you can open and **Add to Grok Bot**. This is not a prompt dump.
 
 > Community templates are untrusted third-party configurations. Inspect the profile, start with read-only access, connect one tool at a time, and keep sends, purchases, deletes, and other irreversible actions behind approval.
 
 Unofficial community list; not affiliated with xAI, SpaceXAI, or Cursor.
 
-## How to use a template
+## What is a Grok Bot template?
 
-1. Open a template's official share link.
+A Grok Bot template is a shareable Bot: identity, description, skills, routines, and requested tools, packed as a public `x.ai/bot` link. Adding it creates a copy on your account. It does not copy the creator's computer, logins, files, or conversation history.
+
+A prompt is text you paste into a Bot description. A template is the installable Bot. This list only catalogs live share URLs. Copy-paste OS prompts live in [`prompts/`](prompts/) and are labeled as prompts, not templates.
+
+Official docs: [Create and manage Bots](https://docs.x.ai/grok-bot/bots).
+
+## How to add a Grok Bot template
+
+1. Open a template's official share link on this page.
 2. Review its identity, description, skills, routines, and requested tools.
 3. Choose **Add to Grok Bot**, then connect only the tools it needs.
+4. Run one safe, reversible task before enabling routines or anything that sends, buys, or deletes.
 
-Sharing copies the public Bot configuration, not the creator's computer, logins, files, or conversation history. See the official [Create and manage Bots](https://docs.x.ai/grok-bot/bots) guide.
+You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 
-## Operating system prompts
-
-These are copy-paste Grok Bot system prompts, not installable share links. A catalog listing still requires a live `https://x.ai/bot/<id>` share URL.
-
-- [Personal Team OS](prompts/personal_team.md) — CEO, CTO, Research Lead, and Marketing Head for running a personal bot organization.
-- [Engineering Mini-Org](prompts/engineering-org/) — Six specialist prompts for running a small, durable engineering team: Ops, Area Engineers, PR Fleet, Nightly Auditor, and P0 Steerer.
-
-## Contents
+## Grok Bot templates by category
 
 - [Assistants](#assistants) (3)
 - [Engineering](#engineering) (4)
@@ -32,6 +34,7 @@ These are copy-paste Grok Bot system prompts, not installable share links. A cat
 - [Sales](#sales) (3)
 - [Creative](#creative) (2)
 - [Life](#life) (2)
+- [FAQ](#faq)
 - [Contributing](#contributing)
 
 ## Assistants
@@ -73,6 +76,40 @@ These are copy-paste Grok Bot system prompts, not installable share links. A cat
 
 - [Flora](https://x.ai/bot/HC7kphHSxDzb639YlmI6O) — Keeps a private houseplant log and schedules seasonal care reminders. [@RichSilver](https://x.com/RichSilver)
 - [Grocery Cart Planner](https://x.ai/bot/Y7LbP6p5EBFjfdTp69cKr) — Plans an Instacart grocery cart when asked and leaves checkout to you. [@mvanhorn](https://x.com/mvanhorn)
+
+## Copy-paste operating system prompts
+
+These are copy-paste Grok Bot system prompts, not installable share links. A catalog listing still requires a live `https://x.ai/bot/` share URL.
+
+- [Personal Team OS](prompts/personal_team.md) — CEO, CTO, Research Lead, and Marketing Head for running a personal bot organization.
+- [Engineering Mini-Org](prompts/engineering-org/) — Six specialist prompts for running a small, durable engineering team: Ops, Area Engineers, PR Fleet, Nightly Auditor, and P0 Steerer.
+
+## How to share your own Grok Bot template
+
+1. In Grok Bot, open the Bot and choose Share as template (update the app if you do not see it).
+2. Inspect the draft. Strip API keys, internal URLs, and anything you would not put in a public document.
+3. Publish and copy the `https://x.ai/bot/...` share URL.
+4. Open a PR here: add the live URL in [`data/templates.json`](data/templates.json), then run `npm test && npm run generate`.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## FAQ
+
+### Where can I find Grok Bot templates?
+
+Here. This repository is a curated list of public Grok Bot templates with live `x.ai/bot` share links, grouped by job (assistants, engineering, research, money, sales, creative, life).
+
+### How do I install a Grok Bot template?
+
+Open the share link, review the Bot, choose Add to Grok Bot, and connect only the tools it needs. You need the Grok Bot app to finish.
+
+### Are Grok Bot templates safe?
+
+They are third-party. SpaceXAI does not verify them. Read the preview, connect the smallest useful permissions, and keep sends, purchases, and deletes behind approval.
+
+### What is the difference between a Grok Bot template and a prompt?
+
+A prompt is text. A template is a published Bot you add from an `x.ai/bot` link. Prompt-only lists are not this catalog.
 
 ## Contributing
 
