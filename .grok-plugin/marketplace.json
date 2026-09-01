@@ -1,0 +1,39 @@
+{
+  "name": "divyansh-company-plugins",
+  "description": "Reusable company leadership, product delivery, and Arceus operations plugins for Grok.",
+  "owner": {
+    "name": "Divyansh Bhadauria"
+  },
+  "plugins": [
+    {
+      "name": "leadership-team",
+      "description": "CEO, CTO, Marketing Head, and Researcher agents with a shared delegation system.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./plugins/leadership-team"
+      },
+      "keywords": ["leadership", "delegation", "ceo", "cto", "marketing", "research"]
+    },
+    {
+      "name": "product-studio",
+      "description": "Product, analysis, design, engineering, and testing agents with evidence-gated delivery skills.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./plugins/product-studio"
+      },
+      "keywords": ["product", "design", "frontend", "backend", "testing"]
+    },
+    {
+      "name": "arceus-operations",
+      "description": "Operate a running Arceus company through its local stdio MCP server.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./plugins/arceus-operations"
+      },
+      "keywords": ["arceus", "company", "mcp", "tasks", "sprints", "artifacts"]
+    }
+  ]
+}

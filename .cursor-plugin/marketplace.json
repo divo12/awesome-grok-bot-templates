@@ -1,0 +1,27 @@
+{
+  "name": "divyansh-company-plugins",
+  "owner": {
+    "name": "Divyansh Bhadauria"
+  },
+  "metadata": {
+    "description": "Company operating plugins for Grok Bot and Cursor.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "leadership-team",
+      "source": "./plugins/leadership-team",
+      "description": "CEO, CTO, Marketing Head, and Researcher agents with shared delegation rules."
+    },
+    {
+      "name": "product-studio",
+      "source": "./plugins/product-studio",
+      "description": "Product, design, engineering, and QA agents with evidence-gated delivery."
+    },
+    {
+      "name": "arceus-operations",
+      "source": "./plugins/arceus-operations",
+      "description": "Local Arceus MCP access and safe company-operations guidance."
+    }
+  ]
+}

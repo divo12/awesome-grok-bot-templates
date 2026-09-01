@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "arceus": {
+      "command": "bun",
+      "args": [
+        "${ARCEUS_ROOT:-/workspace/arceus}/packages/arceus-mcp/bin/arceus-mcp.mjs"
+      ],
+      "env": {
+        "ARCEUS_API": "${ARCEUS_API}",
+        "ARCEUS_TOKEN": "${ARCEUS_TOKEN}"
+      }
+    }
+  }
+}
