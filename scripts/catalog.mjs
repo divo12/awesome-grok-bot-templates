@@ -95,6 +95,13 @@ export function renderReadme(catalog) {
     "",
     "Sharing copies the public Bot configuration, not the creator's computer, logins, files, or conversation history. See the official [Create and manage Bots](https://docs.x.ai/grok-bot/bots) guide.",
     "",
+    "## Operating system prompts",
+    "",
+    "These are copy-paste Grok Bot system prompts, not installable share links. A catalog listing still requires a live `https://x.ai/bot/<id>` share URL.",
+    "",
+    "- [Personal Team OS](prompts/personal_team.md) — CEO, CTO, Research Lead, and Marketing Head for running a personal bot organization.",
+    "- [Engineering Mini-Org](prompts/engineering-org/) — Six specialist prompts for running a small, durable engineering team: Ops, Area Engineers, PR Fleet, Nightly Auditor, and P0 Steerer.",
+    "",
     "## Contents",
     "",
   ];
