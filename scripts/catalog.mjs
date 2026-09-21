@@ -19,6 +19,10 @@ export const CATEGORIES = [
   "Life",
 ];
 
+export function normalizeNewlines(text) {
+  return text.replace(/\r\n?/g, "\n");
+}
+
 export function validateCatalog(catalog) {
   const errors = [];
   const seenIds = new Set();
@@ -186,7 +190,9 @@ async function main() {
 
   if (process.argv.includes("--check")) {
     const current = await readFile(README_PATH, "utf8").catch(() => "");
-    if (current !== rendered) throw new Error("README.md is stale; run npm run generate");
+    if (normalizeNewlines(current) !== normalizeNewlines(rendered)) {
+      throw new Error("README.md is stale; run npm run generate");
+    }
     console.log(`ok: ${catalog.templates.length} templates; README.md is current`);
     return;
   }
