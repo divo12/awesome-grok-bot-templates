@@ -1,0 +1,13 @@
+{
+  "name": "arceus-operations",
+  "description": "Operate a running local Arceus company through its stdio MCP server with approval-gated mutations.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Divyansh Bhadauria"
+  },
+  "license": "CC0-1.0",
+  "keywords": ["arceus", "mcp", "company-operations", "tasks", "sprints"],
+  "skills": "./skills",
+  "agents": "./agents",
+  "mcpServers": "./.mcp.json"
+}

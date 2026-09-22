@@ -27,6 +27,7 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 
 ## Grok Bot templates by category
 
+- [Plugin Packs](#plugin-packs) (3)
 - [Assistants](#assistants) (3)
 - [Engineering](#engineering) (4)
 - [Research](#research) (3)
@@ -36,6 +37,28 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 - [Life](#life) (2)
 - [FAQ](#faq)
 - [Contributing](#contributing)
+
+## Plugin Packs
+
+This repository also acts as a Grok plugin marketplace. Each pack bundles agents and skills; Arceus Operations additionally declares the existing Arceus stdio MCP server.
+
+- [Leadership Team](plugins/leadership-team/README.md) — CEO, CTO, Marketing Head, and Researcher with shared delegation and board-reporting rules.
+- [Product Studio](plugins/product-studio/README.md) — Product, analysis, design, frontend, backend, and testing roles with evidence-gated delivery.
+- [Arceus Operations](plugins/arceus-operations/README.md) — Safe task, sprint, artifact, meeting, approval, workspace, and company operations through Arceus MCP.
+
+### Grok Build marketplace
+
+```bash
+grok plugin marketplace add divo12/awesome-grok-bot-templates
+grok plugin install leadership-team
+grok plugin install product-studio
+# Local-only: review plugins/arceus-operations/mcp.json before granting trust.
+grok plugin install arceus-operations --trust
+```
+
+### Grok Bot and Cursor
+
+Use Cursor's plugin marketplace/import flow for the `.cursor-plugin` manifests, or save the included role skills as private Grok Bot skills. Local Grok Build plugin folders are not documented as a direct Grok Bot install path. Arceus MCP additionally requires a running Arceus checkout and variables configured through the plugin settings.
 
 ## Assistants
 

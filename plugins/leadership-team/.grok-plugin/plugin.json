@@ -1,0 +1,11 @@
+{
+  "name": "leadership-team",
+  "version": "0.1.0",
+  "description": "A four-role company leadership team with bounded delegation and evidence-based reporting.",
+  "author": {
+    "name": "Divyansh Bhadauria"
+  },
+  "license": "CC0-1.0",
+  "agents": "./agents",
+  "skills": "./skills"
+}

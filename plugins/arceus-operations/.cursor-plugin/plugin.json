@@ -1,0 +1,35 @@
+{
+  "name": "arceus-operations",
+  "description": "Operate a running local Arceus company through its stdio MCP server with approval-gated mutations.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Divyansh Bhadauria"
+  },
+  "license": "CC0-1.0",
+  "keywords": ["arceus", "mcp", "company-operations", "tasks", "sprints"],
+  "skills": "./skills",
+  "agents": "./agents",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "ARCEUS_ROOT": {
+        "type": "string",
+        "title": "Arceus checkout root",
+        "description": "Absolute path to an installed Arceus monorepo.",
+        "default": "/workspace/arceus"
+      },
+      "ARCEUS_API": {
+        "type": "string",
+        "title": "Arceus API URL",
+        "description": "Base URL of the running Arceus API."
+      },
+      "ARCEUS_TOKEN": {
+        "type": "string",
+        "title": "Arceus internal token",
+        "description": "Bearer token for Arceus internal MCP routes."
+      }
+    },
+    "required": ["ARCEUS_ROOT", "ARCEUS_API", "ARCEUS_TOKEN"]
+  }
+}

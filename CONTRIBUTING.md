@@ -38,3 +38,13 @@ Add one public Grok Bot template per pull request when practical.
 Assistants - Engineering - Research - Money - Sales - Creative - Life
 
 Templates are community-created and untrusted. A listing means the link and description were reviewed; it is not a security endorsement.
+
+## Add or update a plugin
+
+1. Keep the plugin under `plugins/<name>/` with matching `.grok-plugin/plugin.json` and `.cursor-plugin/plugin.json` manifests.
+2. Put reusable instructions in `skills/<name>/SKILL.md` and role definitions in `agents/*.md`.
+3. Add MCP only when a real server exists. Reference credentials through environment variables; never commit values.
+4. Add the same local source to `.grok-plugin/marketplace.json` and `.cursor-plugin/marketplace.json`.
+5. Run `npm test && npm run generate && npm run check`.
+
+Plugins can execute code or access connected systems. Keep external publication, spending, destructive actions, production changes, and permission expansion behind explicit approval.

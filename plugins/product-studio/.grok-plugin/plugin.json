@@ -1,0 +1,12 @@
+{
+  "name": "product-studio",
+  "version": "0.1.0",
+  "description": "Evidence-led product team agents and delivery skills for Grok.",
+  "author": {
+    "name": "Divyansh Bhadauria"
+  },
+  "license": "CC0-1.0",
+  "keywords": ["product", "engineering", "design", "testing"],
+  "agents": "./agents/",
+  "skills": "./skills/"
+}

@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "generate": "node scripts/catalog.mjs",
-    "check": "node scripts/catalog.mjs --check",
+    "check": "node scripts/catalog.mjs --check && node scripts/validate-plugins.mjs",
     "test": "node --test"
   }
 }
