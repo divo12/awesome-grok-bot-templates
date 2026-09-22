@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { loadCatalog, renderReadme, validateCatalog } from "../scripts/catalog.mjs";
+import { loadCatalog, normalizeNewlines, renderReadme, validateCatalog } from "../scripts/catalog.mjs";
 
 test("the catalog validates and every template renders once", async () => {
   const catalog = await loadCatalog();
@@ -15,4 +15,8 @@ test("the catalog validates and every template renders once", async () => {
   const invalid = structuredClone(catalog);
   invalid.templates[1].share_url = invalid.templates[0].share_url;
   assert.throws(() => validateCatalog(invalid), /duplicates bot id/);
+});
+
+test("README checks treat Windows and Unix line endings equally", () => {
+  assert.equal(normalizeNewlines("first\r\nsecond\rthird\nfourth"), "first\nsecond\nthird\nfourth");
 });
