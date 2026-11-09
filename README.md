@@ -1,6 +1,6 @@
 # Awesome Grok Bot Templates
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-19-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-20-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
 
 A curated list of public **Grok Bot templates**. Every listing is a live [`https://x.ai/bot/...`](https://x.ai/bot) share page you can open and **Add to Grok Bot**. This is not a prompt dump.
 
@@ -33,7 +33,7 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 - [Money](#money) (2)
 - [Sales](#sales) (3)
 - [Creative](#creative) (2)
-- [Life](#life) (2)
+- [Life](#life) (3)
 - [FAQ](#faq)
 - [Contributing](#contributing)
 
@@ -76,6 +76,7 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 
 - [Flora](https://x.ai/bot/HC7kphHSxDzb639YlmI6O) — Keeps a private houseplant log and schedules seasonal care reminders. [@RichSilver](https://x.com/RichSilver)
 - [Grocery Cart Planner](https://x.ai/bot/Y7LbP6p5EBFjfdTp69cKr) — Plans an Instacart grocery cart when asked and leaves checkout to you. [@mvanhorn](https://x.com/mvanhorn)
+- [Keeper's Hall](https://x.ai/bot/Gysg6ozItOXWp_BquycFU) — Your personal guide to Roman's World, answering in the characters' own words and walking you to the right page for stories, books, news, the podcast, and the game. [@romansgameworld](https://x.com/romansgameworld)
 
 ## Copy-paste operating system prompts
 
