@@ -1,6 +1,6 @@
 # Awesome Grok Bot Templates
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-19-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-20-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
 
 A curated list of public **Grok Bot templates**. Every listing is a live [`https://x.ai/bot/...`](https://x.ai/bot) share page you can open and **Add to Grok Bot**. This is not a prompt dump.
 
@@ -30,7 +30,7 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 - [Assistants](#assistants) (3)
 - [Engineering](#engineering) (4)
 - [Research](#research) (3)
-- [Money](#money) (2)
+- [Money](#money) (3)
 - [Sales](#sales) (3)
 - [Creative](#creative) (2)
 - [Life](#life) (2)
@@ -59,6 +59,7 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 ## Money
 
 - [Invoice Hunter](https://x.ai/bot/-kO6HrXokJZANVwUOMZO9) — Finds invoice PDFs in Gmail and prepares a monthly CSV for approval. [@scheemunai](https://x.com/scheemunai)
+- [Mangrove](https://x.ai/bot/VOfh5y4jlFGbZQMxbGsyh) — A trading agent with guardrails that backtests and paper trades first, and sends a live order only after the user approves that exact order. [@Mangrove_AI](https://x.com/Mangrove_AI)
 - [Watchdog](https://x.ai/bot/PuAEE57P58Df5zskFY3pg) — Scans email for receipts, renewals, and trials and reports upcoming charges. [@jxckvibe](https://x.com/jxckvibe)
 
 ## Sales
