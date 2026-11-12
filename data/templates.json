@@ -133,6 +133,13 @@
       "category": "Life",
       "author": "mvanhorn",
       "share_url": "https://x.ai/bot/Y7LbP6p5EBFjfdTp69cKr"
+    },
+    {
+      "name": "Mangrove",
+      "description": "A trading agent with guardrails that backtests and paper trades first, and sends a live order only after the user approves that exact order.",
+      "category": "Money",
+      "author": "Mangrove_AI",
+      "share_url": "https://x.ai/bot/VOfh5y4jlFGbZQMxbGsyh"
     }
   ]
 }
