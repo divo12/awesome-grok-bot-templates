@@ -133,6 +133,34 @@
       "category": "Life",
       "author": "mvanhorn",
       "share_url": "https://x.ai/bot/Y7LbP6p5EBFjfdTp69cKr"
+    },
+    {
+      "name": "Polymarket Odds Watcher",
+      "description": "Checks the Polymarket markets you pick on a schedule and explains moves past your threshold with linked news, without trading or advice.",
+      "category": "Research",
+      "author": null,
+      "share_url": "https://x.ai/bot/OpPn2GR6s45C730ZtOljm"
+    },
+    {
+      "name": "Earnings Brief",
+      "description": "Writes a sourced one-page recap of a company's quarterly results, guidance, and share move on report day.",
+      "category": "Money",
+      "author": null,
+      "share_url": "https://x.ai/bot/qPIVRaWEMvQO19lQPLp6q"
+    },
+    {
+      "name": "Slack Channel Digest",
+      "description": "Sends a short morning digest of chosen Slack channels with decisions, questions that need you, and action items.",
+      "category": "Assistants",
+      "author": null,
+      "share_url": "https://x.ai/bot/HXCLciL-MjsQ_qqfer3om"
+    },
+    {
+      "name": "Listing Writer",
+      "description": "Turns property facts into MLS, Zillow, and Instagram listing copy plus a showing checklist, without inventing details.",
+      "category": "Sales",
+      "author": null,
+      "share_url": "https://x.ai/bot/M7S94aqySV6-5tmUvqIsE"
     }
   ]
 }

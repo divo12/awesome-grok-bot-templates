@@ -1,6 +1,6 @@
 # Awesome Grok Bot Templates
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-19-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Templates](https://img.shields.io/badge/templates-23-blueviolet) ![License](https://img.shields.io/badge/license-CC0-lightgrey)
 
 A curated list of public **Grok Bot templates**. Every listing is a live [`https://x.ai/bot/...`](https://x.ai/bot) share page you can open and **Add to Grok Bot**. This is not a prompt dump.
 
@@ -27,11 +27,11 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 
 ## Grok Bot templates by category
 
-- [Assistants](#assistants) (3)
+- [Assistants](#assistants) (4)
 - [Engineering](#engineering) (4)
-- [Research](#research) (3)
-- [Money](#money) (2)
-- [Sales](#sales) (3)
+- [Research](#research) (4)
+- [Money](#money) (3)
+- [Sales](#sales) (4)
 - [Creative](#creative) (2)
 - [Life](#life) (2)
 - [FAQ](#faq)
@@ -42,6 +42,7 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 - [CEO](https://x.ai/bot/UUcFa8QmAvI3ZyWsEMOt8) — Sets company direction, delegates to functional leaders, and reports progress across the board.
 - [Dewey](https://x.ai/bot/rfAHsaFrz6xHBMtUpxDi5) — Watches Gmail and flags messages that look time-sensitive or need a reply. [@Vixlio](https://x.com/Vixlio)
 - [Grok Bot Coach](https://x.ai/bot/BrjELcmSwatjRc8DYjtrT) — Designs, audits, and tunes Grok Bots so they stay useful and focused. [@GuleidAmina](https://x.com/GuleidAmina)
+- [Slack Channel Digest](https://x.ai/bot/HXCLciL-MjsQ_qqfer3om) — Sends a short morning digest of chosen Slack channels with decisions, questions that need you, and action items.
 
 ## Engineering
 
@@ -52,17 +53,20 @@ You need the [Grok Bot app](https://x.ai/bot) to finish adding a template.
 
 ## Research
 
+- [Polymarket Odds Watcher](https://x.ai/bot/OpPn2GR6s45C730ZtOljm) — Checks the Polymarket markets you pick on a schedule and explains moves past your threshold with linked news, without trading or advice.
 - [Product Idea Stress Test](https://x.ai/bot/JeFTvcDX-7QT2evKGIb52) — Tests a product idea against evidence and identifies its most fragile assumption. [@hnshah](https://x.com/hnshah)
 - [Research Bot](https://x.ai/bot/Nn0ykGa3vJ6YS7ib7F6yH) — Produces cited research and flags claims that remain unverified or biased. [@ArthurMacwaters](https://x.com/ArthurMacwaters)
 - [Researcher](https://x.ai/bot/iri8Z5mxwAWTHJgZUr6nb) — A research lead for a small personal bot org that spawns topic heads for big ongoing questions, kills junk, and returns a position with evidence and holes—never a dump of links.
 
 ## Money
 
+- [Earnings Brief](https://x.ai/bot/qPIVRaWEMvQO19lQPLp6q) — Writes a sourced one-page recap of a company's quarterly results, guidance, and share move on report day.
 - [Invoice Hunter](https://x.ai/bot/-kO6HrXokJZANVwUOMZO9) — Finds invoice PDFs in Gmail and prepares a monthly CSV for approval. [@scheemunai](https://x.com/scheemunai)
 - [Watchdog](https://x.ai/bot/PuAEE57P58Df5zskFY3pg) — Scans email for receipts, renewals, and trials and reports upcoming charges. [@jxckvibe](https://x.com/jxckvibe)
 
 ## Sales
 
+- [Listing Writer](https://x.ai/bot/M7S94aqySV6-5tmUvqIsE) — Turns property facts into MLS, Zillow, and Instagram listing copy plus a showing checklist, without inventing details.
 - [Marketing Head](https://x.ai/bot/GUz8QMB4I9RQzIDiIwSOB) — Owns channel strategy, marketing experiments, and evidence-based growth across X, LinkedIn, and other channels.
 - [Pitch Deck Coach](https://x.ai/bot/mqVPHm0oB3WPsnxbU1qB9) — Reviews a pitch deck for what an investor will understand, question, and remember. [@hnshah](https://x.com/hnshah)
 - [Post Call Assistant](https://x.ai/bot/xF12c5y4LVe7nf7IFguWI) — Drafts follow-ups and action items after meetings without sending them. [@itspriyaptl](https://x.com/itspriyaptl)
